@@ -1,1 +1,3 @@
 # alm-code
+The folder contains the program for the numerical simualtion of the NTNU BT1 rotor for verification. The executable file wake.exe can run in a Linux environment. The airfoil data and the imformation of Lagrangian points are in \data1. The numerical results will be outputed in \result. The executable file wake.exe can be submitted through the script wake_4.sh. The program requires MPI-GPU parallelization and uses 4 GPUs.
+In the computation, the uniform grid with 1400 × 300 × 220 cells is used and the mesh size is ∆x =∆y =∆z = D/100. The computational domain is (x, y, z) ∈ [−4.1D, 9.9D] × [−1.5D, 1.5D] × [0D, 2.2D], The wind turbine rotor center is located at (0D, 0D, 0.902D). The simulation runs for 5 through-times. 
